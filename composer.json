@@ -1,0 +1,23 @@
+{
+    "name": "erikfig/make-module",
+    "description": "Command for make modules",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ErikFig\\Commands\\MakeModule\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ErikFig\\Commands\\MakeModule\\Providers\\CommandsMakeModuleProvider"
+            ]
+        }
+    }
+}

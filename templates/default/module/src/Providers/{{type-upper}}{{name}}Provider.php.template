@@ -1,0 +1,28 @@
+<?php
+
+namespace ErikFig\{{type-upper}}\{{name}}\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+class {{type-upper}}{{name}}Provider extends ServiceProvider
+{
+    /**
+     * Register services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        {{register}}
+    }
+
+    /**
+     * Bootstrap services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        {{boot}}
+    }
+}

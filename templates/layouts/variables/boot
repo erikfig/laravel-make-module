@@ -1,0 +1,5 @@
+$this->publishes([
+            __DIR__.'/../../public' => public_path('public'),
+        ], 'public');
+
+        $this->loadViewsFrom(__DIR__.'/../../resources/views', '{{name-slug}}');

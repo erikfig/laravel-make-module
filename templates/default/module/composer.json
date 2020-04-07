@@ -1,0 +1,23 @@
+{
+    "name": "erikfig/{{name-slug}}",
+    "description": "",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ErikFig\\{{type-upper}}\\{{name}}\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ErikFig\\{{type-upper}}\\{{name}}\\Providers\\{{type-upper}}{{name}}Provider"
+            ]
+        }
+    }
+}
