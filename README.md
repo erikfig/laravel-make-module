@@ -2,10 +2,18 @@
 
 ## Instalation
 
-To install this package run
+Add this to composer.json, then run `composer update`.
 
 ```
-composer require erikfig/make-module
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:erikfig/laravel-make-module.git"
+        }
+    ],
+    "require": {
+        "erikfig/make-module": "dev-master"
+    },
 ```
 
 ## To use
